@@ -1,0 +1,17 @@
+.sideSection {
+  width: 600px;
+  background-color: var(--fume-background-color);
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  transition: transform 0.3s;
+}
+
+.sideSection:hover {
+  transform: scale(1.05);
+}
+
+.sideSectionP {
+  font-size: 0.8em;
+}

@@ -1,0 +1,17 @@
+/* CardGrid.module.css */
+.cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  
+  .card {
+    flex: 1 1 200px;
+    box-sizing: border-box;
+  }
+  
+  

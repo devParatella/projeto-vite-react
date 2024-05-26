@@ -1,0 +1,46 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .homeTitle {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .homeSubtitle {
+    padding: 40px;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    margin-bottom: 20px; /* Adiciona espaço entre o carrossel e o conteúdo abaixo */
+  }
+  
+  .sideSection {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  
+  .carousel {
+    flex: 2;
+  }
+  
+  .cardsContainer{
+   padding-bottom: 80px;
+  }

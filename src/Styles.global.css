@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: rgb(0, 136, 255);
+    --secondary-color: rgb(255, 255, 248);
+    --text-color: #fff;
+    --text-hover-color: #ddd;
+    --background-color: #0078d7;
+    --card-background-color: #fff;
+    --card-text-color: #000;
+    --card-shadow-color: rgba(0, 0, 0, 0.1);
+    --fume-background-color: rgba(0, 0, 0, 0.496); 
+    --barra-solida-color: rgba(0, 0, 0, 0.912);
+}
+
+body {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+

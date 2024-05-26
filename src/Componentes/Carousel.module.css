@@ -1,0 +1,39 @@
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .imageContainer {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    width: 100%;
+  }
+  
+  .image {
+    min-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .leftArrow, .rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .leftArrow {
+    left: 10px;
+  }
+  
+  .rightArrow {
+    right: 10px;
+  }
+  
