@@ -1,0 +1,30 @@
+.card {
+    background-color: var(--card-background-color);
+    color: var(--card-text-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--card-shadow-color);
+    transition: transform 0.3s;
+    max-width: 200px; /* Defina a largura máxima do card */
+  }
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cardText {
+    margin-top: 10px;
+    max-height: 80px;
+    overflow: hidden; /* Esconde qualquer texto que ultrapasse a altura máxima */
+    text-overflow: ellipsis; /* Adiciona reticências (...) para indicar texto cortado */
+    white-space: nowrap; /* Evita que o texto seja quebrado em várias linhas */
+  }
+
+  .collapsed {
+    max-height: none; /* Exibe o texto oculto ao passar o mouse sobre o card */
+  }

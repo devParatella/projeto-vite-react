@@ -1,0 +1,42 @@
+.sobreContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .sobreTitle {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+  
+  .Container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sideSection {
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+  
+  .carousel {
+    flex: 2;
+  }
+  
+  .cardsContainer {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  

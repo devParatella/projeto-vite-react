@@ -1,0 +1,20 @@
+.produtosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .produtosTitle {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+  }
+  
+  .cardsContainer {
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 80px;
+  }
+  
